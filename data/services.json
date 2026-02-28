@@ -1,0 +1,124 @@
+{
+  "services": [
+    {
+      "slug": "patios",
+      "name": "Patios",
+      "title": "Patio Installation",
+      "priority": 1,
+      "keywords": ["patio", "patios", "patio installation", "patio laying"],
+      "materials": ["porcelain paving", "Indian sandstone", "limestone", "slate", "natural stone"],
+      "description": "Transform your outdoor space with a stunning new patio. We specialise in porcelain paving, Indian sandstone, and natural stone patios built to last.",
+      "features": [
+        "Proper groundwork and drainage",
+        "Premium quality materials",
+        "Bespoke designs to suit your garden",
+        "10+ years of experience"
+      ]
+    },
+    {
+      "slug": "driveways",
+      "name": "Driveways",
+      "title": "Driveway Installation",
+      "priority": 1,
+      "keywords": ["driveway", "driveways", "driveway installation", "new driveway"],
+      "materials": ["block paving", "resin bound", "gravel", "tarmac", "concrete"],
+      "description": "Quality driveway installations that improve your home's kerb appeal. From block paving to resin driveways, we deliver lasting results.",
+      "features": [
+        "Block paving specialists",
+        "Resin bound driveways",
+        "Proper sub-base preparation",
+        "Drainage solutions included"
+      ]
+    },
+    {
+      "slug": "fencing",
+      "name": "Fencing",
+      "title": "Fencing Installation",
+      "priority": 1,
+      "keywords": ["fencing", "fence", "garden fencing", "fence installation"],
+      "materials": ["closeboard fencing", "fence panels", "trellis", "featherboard"],
+      "description": "Professional fencing installation using concrete posts and gravel boards. Built properly to stand the test of time.",
+      "features": [
+        "Closeboard and panel fencing",
+        "Concrete posts and gravel boards",
+        "Gates and side access",
+        "Storm damage repairs"
+      ]
+    },
+    {
+      "slug": "decking",
+      "name": "Decking",
+      "title": "Decking Installation",
+      "priority": 2,
+      "keywords": ["decking", "deck", "garden decking", "composite decking", "timber decking"],
+      "materials": ["composite decking", "timber decking", "hardwood", "softwood"],
+      "description": "Create an outdoor living space with quality decking. We install composite and timber decking with proper sub-frames and drainage.",
+      "features": [
+        "Composite and timber options",
+        "Low-maintenance finishes",
+        "Pergolas and balustrades",
+        "LED lighting available"
+      ]
+    },
+    {
+      "slug": "turfing",
+      "name": "Turfing & Lawns",
+      "title": "Turfing & Lawn Installation",
+      "priority": 2,
+      "keywords": ["turfing", "lawn", "grass", "lawn installation", "new lawn"],
+      "materials": ["premium turf", "lawn seed", "topsoil"],
+      "description": "Professional lawn installation using premium turf. From tired old lawns to lush green spaces, we handle the complete job.",
+      "features": [
+        "Premium quality turf",
+        "Proper soil preparation",
+        "Levelling and grading",
+        "Aftercare advice included"
+      ]
+    },
+    {
+      "slug": "garden-renovations",
+      "name": "Garden Renovations",
+      "title": "Complete Garden Renovations",
+      "priority": 1,
+      "keywords": ["garden renovation", "garden makeover", "landscaping", "garden design"],
+      "materials": [],
+      "description": "Complete garden makeovers tailored to your space and budget. From design to completion, we transform tired gardens into stunning outdoor spaces.",
+      "features": [
+        "Free design consultation",
+        "Full project management",
+        "All trades covered",
+        "Before and after photos"
+      ]
+    },
+    {
+      "slug": "walls-brickwork",
+      "name": "Walls & Brickwork",
+      "title": "Garden Walls & Brickwork",
+      "priority": 2,
+      "keywords": ["garden walls", "retaining walls", "brickwork", "stonework"],
+      "materials": ["brick", "natural stone", "sleepers", "concrete blocks"],
+      "description": "Expert brick and stonework for retaining walls, raised beds, and decorative features. Built to last with quality materials.",
+      "features": [
+        "Retaining walls",
+        "Raised flower beds",
+        "Decorative walls",
+        "Boundary walls"
+      ]
+    },
+    {
+      "slug": "drainage",
+      "name": "Drainage Solutions",
+      "title": "Garden Drainage",
+      "priority": 3,
+      "keywords": ["drainage", "garden drainage", "soakaway", "french drain"],
+      "materials": ["drainage channels", "soakaways", "ACO drains"],
+      "description": "Effective drainage systems to protect your property. From simple soakaways to comprehensive surface water management.",
+      "features": [
+        "Soakaways",
+        "French drains",
+        "Channel drainage",
+        "Surface water solutions"
+      ]
+    }
+  ]
+}
