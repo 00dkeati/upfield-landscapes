@@ -7,14 +7,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'brand-red': '#e63946',
-        'brand-dark': '#1a1a2e',
-        'brand-darker': '#16213e',
-        'brand-gray': '#4a4a4a',
+        'brand-red': '#F44336',
+        'brand-coral': '#FF4136',
+        'brand-black': '#000000',
+        'brand-dark': '#0a0a0a',
+        'brand-silver': '#A0A0A0',
+        'brand-silver-light': '#C0C0C0',
+        'brand-gray': '#808080',
       },
       fontFamily: {
         'heading': ['Oswald', 'sans-serif'],
         'body': ['Open Sans', 'sans-serif'],
+      },
+      letterSpacing: {
+        'logo': '0.15em',
       },
     },
   },

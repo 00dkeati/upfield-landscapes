@@ -3,17 +3,21 @@
 @tailwind utilities;
 
 :root {
-  --brand-red: #e63946;
-  --brand-dark: #1a1a2e;
-  --brand-darker: #16213e;
+  --brand-red: #F44336;
+  --brand-coral: #FF4136;
+  --brand-black: #000000;
+  --brand-dark: #0a0a0a;
+  --brand-silver: #A0A0A0;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #000000;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.05em;
 }
 
 .container {
@@ -21,21 +25,44 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-gradient {
-  background: linear-gradient(135deg, rgba(26, 26, 46, 0.9) 0%, rgba(22, 33, 62, 0.85) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.8) 100%);
 }
 
 .btn-primary {
-  @apply bg-brand-red text-white px-8 py-4 font-semibold hover:bg-red-600 transition-colors inline-block;
+  @apply bg-brand-red text-white px-8 py-4 font-semibold hover:bg-red-500 transition-colors inline-block tracking-wider;
 }
 
 .btn-secondary {
-  @apply border-2 border-white text-white px-8 py-4 font-semibold hover:bg-white hover:text-brand-dark transition-colors inline-block;
+  @apply border-2 border-brand-silver text-brand-silver px-8 py-4 font-semibold hover:bg-brand-silver hover:text-black transition-colors inline-block tracking-wider;
 }
 
 .section-dark {
-  @apply bg-brand-dark;
+  @apply bg-black;
 }
 
 .section-darker {
-  @apply bg-brand-darker;
+  @apply bg-brand-dark;
+}
+
+/* Brick pattern accent - matches logo */
+.brick-accent {
+  background: linear-gradient(90deg, 
+    #F44336 0%, #F44336 12%, transparent 12%, transparent 14%,
+    #F44336 14%, #F44336 26%, transparent 26%, transparent 28%,
+    #F44336 28%, #F44336 40%, transparent 40%, transparent 42%,
+    #F44336 42%, #F44336 54%, transparent 54%, transparent 56%,
+    #F44336 56%, #F44336 68%, transparent 68%, transparent 70%,
+    #F44336 70%, #F44336 82%, transparent 82%, transparent 84%,
+    #F44336 84%, #F44336 100%
+  );
+  height: 24px;
+}
+
+/* Silver text styling */
+.text-silver {
+  color: #A0A0A0;
+}
+
+.text-silver-light {
+  color: #C0C0C0;
 }

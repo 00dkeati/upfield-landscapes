@@ -72,7 +72,7 @@ export default function RootLayout({
         <link rel="canonical" href="https://upfieldlandscapes.com" />
         <LocalBusinessSchema />
       </head>
-      <body className="bg-brand-dark text-white font-body">
+      <body className="bg-black text-brand-silver font-body">
         <Header />
         <main>{children}</main>
         <Footer />
