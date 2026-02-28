@@ -19,21 +19,28 @@ const posts = [
     title: 'Porcelain vs Sandstone Patios: Which is Best for Your Garden?',
     excerpt: 'Comparing the two most popular patio materials. Pros, cons, costs and maintenance requirements to help you choose.',
     date: '27 Feb 2026',
-    readTime: '4 min read',
+    readTime: '6 min read',
   },
   {
     slug: 'driveway-ideas-hampshire',
     title: '5 Driveway Ideas for Hampshire Homes',
     excerpt: 'From block paving to resin bound, discover the best driveway options for your property. Includes costs and planning permission advice.',
     date: '26 Feb 2026',
-    readTime: '6 min read',
+    readTime: '7 min read',
   },
   {
     slug: 'best-fencing-options-hampshire',
     title: 'Best Fencing Options for Hampshire Gardens',
     excerpt: 'Closeboard, slatted, or picket? We break down the best fence types for privacy, durability and style in Hampshire gardens.',
     date: '25 Feb 2026',
-    readTime: '4 min read',
+    readTime: '5 min read',
+  },
+  {
+    slug: 'composite-decking-guide',
+    title: 'Composite Decking: Is It Worth It? Complete Guide',
+    excerpt: 'Everything you need to know about composite decking. Costs, brands, installation tips, and whether it\'s worth the investment.',
+    date: '24 Feb 2026',
+    readTime: '8 min read',
   },
 ]
 

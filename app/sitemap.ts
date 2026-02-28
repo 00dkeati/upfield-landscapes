@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'porcelain-vs-sandstone-patios',
     'driveway-ideas-hampshire',
     'best-fencing-options-hampshire',
+    'composite-decking-guide',
   ]
 
   // Homepage
