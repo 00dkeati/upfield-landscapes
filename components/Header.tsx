@@ -36,6 +36,9 @@ export default function Header() {
             <Link href="/#testimonials" className="text-brand-silver hover:text-brand-red transition-colors font-medium tracking-wider text-sm">
               REVIEWS
             </Link>
+            <Link href="/blog" className="text-brand-silver hover:text-brand-red transition-colors font-medium tracking-wider text-sm">
+              BLOG
+            </Link>
             <Link 
               href="/#contact" 
               className="bg-brand-red text-white px-6 py-3 font-semibold hover:bg-red-500 transition-colors tracking-wider text-sm"
