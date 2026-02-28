@@ -153,9 +153,15 @@ export default function HomePage() {
               { title: 'Garden Room & Decking', desc: 'Composite decking with turf and slate patio', image: '/images/project-1.jpg' },
               { title: 'Porcelain Patio', desc: 'Grey porcelain paving with white gravel border', image: '/images/project-2.jpg' },
               { title: 'Full Garden Transformation', desc: 'Large format paving with raised beds', image: '/images/project-3.jpg' },
-              { title: 'Garden Room & Decking', desc: 'Modern outdoor living space', image: '/images/project-1.jpg' },
-              { title: 'Porcelain Patio', desc: 'Premium tiled patio with garden room', image: '/images/project-2.jpg' },
-              { title: 'Complete Renovation', desc: 'Designed for usability, delivered with quality', image: '/images/project-3.jpg' },
+              { title: 'Porcelain Patio', desc: 'Premium grey porcelain with clean lines', image: '/images/portfolio/patio-1.jpg' },
+              { title: 'Indian Sandstone Patio', desc: 'Buff sandstone with sleeper raised beds', image: '/images/portfolio/patio-2.jpg' },
+              { title: 'Block Paved Driveway', desc: 'Charcoal blocks with contrasting border', image: '/images/portfolio/driveway-1.jpg' },
+              { title: 'Resin Bound Driveway', desc: 'Warm toffee finish, low maintenance', image: '/images/portfolio/driveway-2.jpg' },
+              { title: 'Closeboard Fencing', desc: 'Timber fence with concrete posts', image: '/images/portfolio/fencing-1.jpg' },
+              { title: 'Contemporary Slatted Fence', desc: 'Modern grey slatted panels', image: '/images/portfolio/fencing-2.jpg' },
+              { title: 'Composite Decking', desc: 'Low-maintenance deck with garden room', image: '/images/portfolio/decking-1.jpg' },
+              { title: 'New Lawn Installation', desc: 'Premium turf with timber edging', image: '/images/portfolio/turf-1.jpg' },
+              { title: 'Garden Renovation', desc: 'Complete transformation with lighting', image: '/images/portfolio/garden-1.jpg' },
             ].map((project, index) => (
               <div key={index} className="bg-brand-dark border border-brand-silver/20 overflow-hidden group hover:border-brand-red transition-colors">
                 <div className="h-64 relative overflow-hidden">
