@@ -8,37 +8,32 @@ export default function HomePage() {
     <div className="bg-black">
       {/* Hero Section */}
       <section 
-        className="min-h-screen flex items-center justify-center relative bg-black"
+        className="min-h-screen flex items-center justify-center relative"
+        style={{
+          backgroundImage: 'url(/images/portfolio/patio-1.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
       >
+        <div className="absolute inset-0 bg-black/70"></div>
         <div className="container mx-auto px-4 text-center relative z-10 pt-20">
-          {/* Logo-style heading */}
-          <h1 className="text-5xl md:text-7xl font-heading font-bold mb-2 tracking-logo">
-            <span className="text-brand-silver-light">UPFIELD</span>
-          </h1>
-          {/* Brick accent bar */}
-          <div className="flex justify-center mb-2">
-            <div className="flex gap-1">
-              {[...Array(7)].map((_, i) => (
-                <div key={i} className="w-12 md:w-16 h-6 bg-brand-red"></div>
-              ))}
-            </div>
-          </div>
-          <h1 className="text-5xl md:text-7xl font-heading font-bold mb-8 tracking-logo">
-            <span className="text-brand-silver-light">LANDSCAPES</span>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold mb-6">
+            <span className="text-white">TRANSFORMING </span>
+            <span className="text-brand-red italic">OUTDOOR</span>
+            <br />
+            <span className="text-brand-red italic">SPACES</span>
+            <span className="text-white"> IN PETERSFIELD</span>
           </h1>
           
-          <p className="text-xl text-brand-silver mb-4 tracking-widest">
-            PROFESSIONAL LANDSCAPING IN PETERSFIELD & HAMPSHIRE
-          </p>
-          <p className="text-2xl text-brand-silver-light mb-10 tracking-wider">
-            07393 730595
+          <p className="text-lg md:text-xl text-gray-300 mb-10 tracking-widest">
+            QUALITY LANDSCAPING IN PETERSFIELD & HAMPSHIRE
           </p>
           
           <div className="flex gap-4 justify-center flex-wrap">
-            <Link href="#contact" className="btn-primary">
+            <Link href="#contact" className="bg-brand-red text-white px-10 py-4 font-semibold hover:bg-red-500 transition-colors tracking-wider">
               GET FREE QUOTE
             </Link>
-            <Link href="#portfolio" className="btn-secondary">
+            <Link href="#portfolio" className="border-2 border-white text-white px-10 py-4 font-semibold hover:bg-white hover:text-black transition-colors tracking-wider">
               VIEW OUR WORK
             </Link>
           </div>
@@ -46,8 +41,8 @@ export default function HomePage() {
         
         {/* Scroll indicator */}
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
-          <div className="w-6 h-10 border-2 border-brand-silver/50 rounded-full flex justify-center pt-2">
-            <div className="w-1 h-3 bg-brand-red rounded-full animate-bounce"></div>
+          <div className="w-8 h-12 border-2 border-white/50 rounded-full flex justify-center pt-2">
+            <div className="w-1.5 h-3 bg-brand-red rounded-full animate-bounce"></div>
           </div>
         </div>
       </section>
