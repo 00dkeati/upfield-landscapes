@@ -1,0 +1,5 @@
+# Upfield Landscapes
+User-agent: *
+Allow: /
+
+Sitemap: https://www.upfieldlandscapes.com/sitemap.xml
