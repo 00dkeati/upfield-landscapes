@@ -150,16 +150,21 @@ export default function HomePage() {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { title: 'Porcelain Patio & Garden Room', desc: 'Grey porcelain paving with white gravel border' },
-              { title: 'Porcelain Patio', desc: 'Large format porcelain with drainage channel' },
-              { title: 'Block Paved Driveway', desc: 'Premium block paving with borders' },
-              { title: 'Composite Decking', desc: 'Low-maintenance deck with pergola' },
-              { title: 'Cottage Garden', desc: 'Traditional design with modern touches' },
-              { title: 'Garden Renovation', desc: 'Complete transformation with patio and planting' },
+              { title: 'Garden Room & Decking', desc: 'Composite decking with turf and slate patio', image: '/images/project-1.jpg' },
+              { title: 'Porcelain Patio', desc: 'Grey porcelain paving with white gravel border', image: '/images/project-2.jpg' },
+              { title: 'Full Garden Transformation', desc: 'Large format paving with raised beds', image: '/images/project-3.jpg' },
+              { title: 'Garden Room & Decking', desc: 'Modern outdoor living space', image: '/images/project-1.jpg' },
+              { title: 'Porcelain Patio', desc: 'Premium tiled patio with garden room', image: '/images/project-2.jpg' },
+              { title: 'Complete Renovation', desc: 'Designed for usability, delivered with quality', image: '/images/project-3.jpg' },
             ].map((project, index) => (
               <div key={index} className="bg-brand-dark border border-brand-silver/20 overflow-hidden group hover:border-brand-red transition-colors">
-                <div className="h-48 bg-gradient-to-br from-brand-silver/10 to-black flex items-center justify-center">
-                  <span className="text-brand-silver/40 tracking-wider">PROJECT IMAGE</span>
+                <div className="h-64 relative overflow-hidden">
+                  <Image 
+                    src={project.image} 
+                    alt={project.title}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
                 </div>
                 <div className="p-6">
                   <h3 className="font-heading font-bold text-lg mb-2 text-brand-silver-light tracking-wider">{project.title.toUpperCase()}</h3>
