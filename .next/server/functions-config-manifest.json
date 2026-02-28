@@ -1,1 +1,1 @@
-{"version":1,"functions":{"/areas":{},"/areas/[slug]":{},"/services/[service]/[location]":{},"/services/[service]":{},"/services":{}}}
+{"version":1,"functions":{"/areas/[slug]":{},"/services":{},"/services/[service]":{},"/areas":{},"/services/[service]/[location]":{}}}
