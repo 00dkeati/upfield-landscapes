@@ -1,5 +1,18 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "out",
-  "framework": null
+  "framework": null,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "upfieldlandscapes.com"
+        }
+      ],
+      "destination": "https://www.upfieldlandscapes.com/:path*",
+      "permanent": true
+    }
+  ]
 }
