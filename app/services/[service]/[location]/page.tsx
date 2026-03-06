@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: ServiceLocationPageProps): Pr
   if (!service || !area) return { title: 'Page Not Found' }
 
   const title = `${service.name} ${area.name} | ${service.title} ${area.county}`
-  const description = `Looking for ${service.name.toLowerCase()} in ${area.name}? Local ${area.county} landscapers with 10+ years experience. ${service.materials?.slice(0, 3).join(', ') || 'Quality materials'}. Free quotes. Call 07393 730595.`
+  const description = `Looking for ${service.name.toLowerCase()} in ${area.name}? Local ${area.county} landscapers with 2+ years experience. ${service.materials?.slice(0, 3).join(', ') || 'Quality materials'}. Free quotes. Call 07393 730595.`
 
   return {
     title,
@@ -134,7 +134,7 @@ export default function ServiceLocationPage({ params }: ServiceLocationPageProps
             <span className="text-white"> in {area.name}</span>
           </h1>
           <p className="text-xl text-gray-300 mb-4">
-            Professional {service.name.toLowerCase()} installation in {area.name}, {area.county}. Local experts with 10+ years experience.
+            Professional {service.name.toLowerCase()} installation in {area.name}, {area.county}. Local experts with 2+ years experience.
           </p>
           <p className="text-gray-500 mb-8">{distanceText} • {area.postcode_prefix} postcodes • Free quotes</p>
           <div className="flex gap-4 flex-wrap">

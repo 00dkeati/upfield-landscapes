@@ -75,7 +75,7 @@ export default function HomePage() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8">
               <div>
-                <div className="text-5xl font-heading font-bold text-brand-red">10+</div>
+                <div className="text-5xl font-heading font-bold text-brand-red">2+</div>
                 <p className="text-brand-silver mt-2 tracking-wider">YEARS EXPERIENCE</p>
               </div>
               <div>
